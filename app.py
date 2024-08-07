@@ -5,7 +5,7 @@ import torch
 from PIL import Image
 
 # Load text generation model from Hugging Face
-text_generator = pipeline('text-generation', model='gpt-3.5-turbo')
+text_generator = pipeline('text-generation', model='gpt-2')
 
 # Load Stable Diffusion model for image generation
 device = "cuda" if torch.cuda.is_available() else "cpu"
