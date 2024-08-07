@@ -1,6 +1,7 @@
-streamlit
 transformers
+diffusers
 torch
+streamlit
+accelerate
 Pillow
 requests
-diffusers
